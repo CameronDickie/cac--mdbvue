@@ -23,6 +23,13 @@ import {
 
 export default {
   name: 'Header',
+  components: {
+    mdbNavbar,
+    mdbNavbarBrand,
+    mdbNavbarToggler,
+    mdbNavbarNav,
+    mdbNavItem
+  },
   props: {
     msg: String
   }
