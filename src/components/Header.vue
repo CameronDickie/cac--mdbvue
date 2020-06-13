@@ -22,7 +22,7 @@ import {
 } from "mdbvue";
 
 export default {
-  name: 'HelloWorld',
+  name: 'Header',
   props: {
     msg: String
   }
