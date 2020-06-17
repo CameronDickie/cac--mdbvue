@@ -1,11 +1,11 @@
 <template>
   <!-- NAVBAR COMPONENTS -->
-    <mdb-navbar color="white" style="min-height:75px;" light>
+    <mdb-navbar color="blue lighten-4" style="min-height:75px;" light>
       <mdb-navbar-brand href="https://mdbootstrap.com/">Climate Action Carleton</mdb-navbar-brand>
       <mdb-navbar-toggler>
         <mdb-navbar-nav>
-          <mdb-nav-item href="#" active>Home</mdb-nav-item>
-          <mdb-nav-item href="#">About</mdb-nav-item>
+          <mdb-nav-item href="#/home" active>Home</mdb-nav-item>
+          <mdb-nav-item href="#/about">About</mdb-nav-item>
           <mdb-nav-item href="#">Contact</mdb-nav-item>
         </mdb-navbar-nav>
       </mdb-navbar-toggler>
