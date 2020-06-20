@@ -11,7 +11,6 @@ app.use('/', serveStatic(path.join(__dirname, '/dist')))
 app.get(/.*/, function (req, res) {
 	res.sendFile(path.join(__dirname, '/dist/index.html'))
 })
-//ayy lmao this is cam
 const port = process.env.PORT || 4200
 app.listen(port)
 console.log(`app is listening on port: ${port}`)
